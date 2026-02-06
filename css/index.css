@@ -44,7 +44,7 @@ h1 {
 
 h2{
     padding-left: 0.5em;
-    border-left: solid 0.5em darkgray;
+    border-left: solid 0.5em rgb(108, 141, 163);
     text-align: left;
 }
 
@@ -174,3 +174,4 @@ footer> p {
     }
 
 }
+
