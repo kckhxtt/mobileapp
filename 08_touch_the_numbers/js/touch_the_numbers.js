@@ -172,7 +172,7 @@ start.addEventListener("click",
         music.currentTime = 0;
         music.play();
 
-        randominzing()
+        randominzing();
 
         startTime = Date.now();
         setButtonStateRunning();
@@ -260,4 +260,5 @@ function setButtonStateStopped() {
     start.classList.add("js-unclickable");
     stop.classList.add("js-unclickable");
     reset.classList.remove("js-unclickable");
+
 }
